@@ -1,19 +1,29 @@
 # Chemistry-Project
-Originally wanted this to be a Java project but then I learned about databases and it was more convenient to continue this project in Python. ;)
+This project uses SQLite3 in conjunction with Python and Pandas to access elemental data from a database of the Periodic Table of Elements.
+The user is able to request the Atomic Weight of an element by entering any identifying information. The program will process the user input to determine which field to search.
+The value is returned as an integer and readily available to be used in mathematical calculations.
+This program can be extended by adding other elemental fields to the database and writing similar functions to access those records, however, this project was originally started for personal use in a Chemistry class that finished before this program and has now instead become a practice on working with SQLite and Python. 
+Additional functions and database changes are unlikely to be added at this time.
+
+Some functions need to be rewritten and cleaned up.
+There are unused functions left behind for personal reference.
+The if/else statement in the try/except clause is clunky and cluttered.
+The get_info() function currently does not take user input but should be rewritten to accept and reformat (syntactically) user input for use in the query string with a similar if/else block to determine which fields to query.
 
 
-4/14/21
-First SQL project;
-Used SQLite to create database for Table of Elements instead of creating 118 element object files. lol.
-Added Python file to manage and access data. Functions are functional but currently inefficient. 
-Some unnecessary/unused functions are left behind for reference.
 
-To Do: (.py)
-User Input is case-sensitive, which needs to be fixed for element Names.
-try/except is functioning in a weird way. rewrite loop.
-store common query statements in variables, there is too much code clutter
-see get_info() function and parameterized query statement in pd.read_sql; 
-  rewrite "filter" var to accept user input then format query statements correctly. Use similar loop from try/except?
-  
-Ideas:
-define (rigidly) case sensitive rules for chemical symbols for future chemical compound management?
+
+
+
+
+
+Wrote SQL commands to .sql file to create a database for the Table of Elements.
+in Terminal:
+Move to root directory with SQLite shell (.exe)
+From .sql file, create database
+
+>> sqlite3
+>> sqlite elementsDB.db < createElementsDB.sql
+
+
+
