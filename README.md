@@ -14,5 +14,6 @@ try/except is functioning in a weird way. rewrite loop.
 store common query statements in variables, there is too much code clutter
 see get_info() function and parameterized query statement in pd.read_sql; 
   rewrite "filter" var to accept user input then format query statements correctly. Use similar loop from try/except?
+  
 Ideas:
 define (rigidly) case sensitive rules for chemical symbols for future chemical compound management?
