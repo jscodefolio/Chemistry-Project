@@ -9,8 +9,8 @@ in Terminal:
 Move to root directory with SQLite shell (.exe)
 From .sql file, create database
 
->> sqlite3
->> sqlite elementsDB.db < createElementsDB.sql
+$ sqlite3
+$ sqlite elementsDB.db < createElementsDB.sql
 
 
 Notes:
