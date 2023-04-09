@@ -40,7 +40,7 @@ def get_info(conn):
 def run_query(query):
     return pd.read_sql_query(query,db)
 
-# rewrite to improve efficiency
+# lots of repetitive code
 def get_mass(conn):
     user_input = input("Atomic Mass request for: ")
       
@@ -68,9 +68,6 @@ def get_mass(conn):
             cur.execute("SELECT AtomicMass FROM elements WHERE Symbol = ?", symbol)
             result = cur.fetchone()[0]
             print(result)
-
-          
-
 
 def main():
     conn = create_connection(db)
@@ -100,9 +97,7 @@ if __name__=='__main__':
 
 
 
-# OLD FUNCTIONS, REPLACED FOR MORE EFFICIENCY WITH get_mass()
-
-   
+# OLD FUNCTIONS (for reference because this was a learning project) replaced with getMass()
 
 def from_name_get_mass(conn):
     user_input = input("Atomic Mass request for: ")
