@@ -1,7 +1,7 @@
 # Chemistry-Project
 The user is able to request the Atomic Weight of an element by entering any identifying information (Atomic Number, Name or Symbol). The program will process the user input to determine which field to search. This was a simple project to get a feel for SQL.
 
-# INSTRUCTIONS:
+### INSTRUCTIONS:
 
 **Creating the database**
 
