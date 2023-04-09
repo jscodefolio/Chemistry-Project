@@ -9,7 +9,7 @@ import sqlite3
 from sqlite3 import Error
 import pandas as pd
 
-db = ("C:\\sqlite\\elementsDB.db")
+db = ("path to your created .db")
 
 
 def create_connection(db):
