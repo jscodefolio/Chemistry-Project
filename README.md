@@ -1,5 +1,4 @@
 # Chemistry-Project
-This project uses SQLite3 with Python and Pandas to access a database of Elements.
 The user is able to request the Atomic Weight of an element by entering any identifying information (Atomic Number, Name or Symbol). The program will process the user input to determine which field to search. This was a simple project to get a feel for SQL.
 
 INSTRUCTIONS?:
@@ -9,9 +8,9 @@ in Terminal:
 Move to root directory with SQLite shell (.exe)
 From .sql file, create database
 
-$ sqlite3
+`$ sqlite3`
 
-$ sqlite elementsDB.db < createElementsDB.sql
+`$ sqlite elementsDB.db < createElementsDB.sql`
 
 
 NOTES:
