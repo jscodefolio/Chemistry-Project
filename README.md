@@ -1,5 +1,5 @@
 # Chemistry-Project
-This project uses SQLite3 with Python and Pandas to access elemental data from a database of the Periodic Table of Elements.
+This project uses SQLite3 with Python and Pandas to access a database of Elements.
 The user is able to request the Atomic Weight of an element by entering any identifying information (Atomic Number, Name or Symbol). The program will process the user input to determine which field to search. This was a simple project to get a feel for SQL.
 
 Instructions:
